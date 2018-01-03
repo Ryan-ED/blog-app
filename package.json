@@ -1,0 +1,38 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "A simple blog application using Semantic UI, NodeJS, ExpressJS and MongoDB as an exercise in learning RESTful Routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-ED/blog-app.git"
+  },
+  "keywords": [
+    "hmtl",
+    "css",
+    "javascript",
+    "semantic",
+    "ui",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "rest",
+    "restful",
+    "routing"
+  ],
+  "author": "Ryan-ED",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-ED/blog-app/issues"
+  },
+  "homepage": "https://github.com/Ryan-ED/blog-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
