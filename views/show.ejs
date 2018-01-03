@@ -13,11 +13,13 @@
             </div>
         </div>
         <div class="ui buttons">
-            <a class="ui blue inverted button big" href="/blogs/<%= blog._id %>/edit">Edit</a>
+            <a class="ui blue button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+            <div class="or"></div>
             <form action="/blogs/<%= blog._id %>?_method=DELETE" method="post">
-                <input type="submit" value="Delete" class="ui red inverted button big">
+                <input type="submit" value="Delete" class="ui red button">
             </form>
-            <a class="ui green inverted button big" href="/blogs">Back</a>
+            <div class="or"></div>
+            <a class="ui green button" href="/blogs">Back</a>
           </div>
     </div>
 </div>
