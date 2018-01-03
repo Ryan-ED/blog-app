@@ -16,8 +16,11 @@
             <label for="">Post</label>
             <textarea name="blog[body]"><%= blog.body %></textarea>
         </div>
+        <div class="ui buttons">
+            <input type="submit" value="Submit" class="ui violet inverted button big">
+            <a href="/blogs/<%= blog._id %>" class="ui green inverted button big">Back</a>
+          </div>
 
-        <input type="submit" value="Submit" class="ui violet inverted button big">
     </form>
 </div>
 
